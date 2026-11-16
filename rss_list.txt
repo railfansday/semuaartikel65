@@ -1,0 +1,11 @@
+https://techcrunch.com/feed/
+https://www.theverge.com/rss/index.xml
+https://feeds.arstechnica.com/arstechnica/index
+https://www.engadget.com/rss.xml
+https://www.wired.com/feed/rss
+https://www.cnbc.com/id/19854910/device/rss/rss.html
+https://feeds.feedburner.com/venturebeat/SZYF
+https://www.mashable.com/feed/
+https://9to5mac.com/feed/
+https://9to5google.com/feed/
+https://www.androidcentral.com/rss.xml
