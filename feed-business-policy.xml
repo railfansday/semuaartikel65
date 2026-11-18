@@ -4,8 +4,20 @@
     <title>Portal Berita - Business & Policy</title>
     <link>https://railfansday.github.io/semuaartikel65/</link>
     <description>Curated news feed for Business & Policy.</description>
-    <lastBuildDate>Tue, 17 Nov 2026 15:00:05 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:05:52 -0000</lastBuildDate>
     
+            <item>
+                <title>U.S. details investigation into Megaspeed as Trump downplays Chinese spy reports</title>
+                <link>https://railfansday.github.io/semuaartikel65/artikel/us-details-investigation-into-megaspeed-as-trump-downplays-chines-968.html</link>
+                <guid>https://railfansday.github.io/semuaartikel65/artikel/us-details-investigation-into-megaspeed-as-trump-downplays-chines-968.html</guid>
+                <description>The U.S. Department of Justice and U.S. Department of Commerce have just put out a rare joint statement detailing an open investigation into the Singapore-based tech firm Megaspeed. Recent findings suggest that according to the statement, U.S. agencies opened an investigation int...</description>
+            </item>
+            <item>
+                <title>CFTC tells Kalshi to stop letting people bet on Trump's speeches</title>
+                <link>https://railfansday.github.io/semuaartikel65/artikel/cftc-tells-kalshi-to-stop-letting-people-bet-on-trumps-speeches-860.html</link>
+                <guid>https://railfansday.github.io/semuaartikel65/artikel/cftc-tells-kalshi-to-stop-letting-people-bet-on-trumps-speeches-860.html</guid>
+                <description>The prediction market platform's CEO has complied but opposed the move. In a recent development, on November 13, the US Commodity Futures Trading Commission ordered prediction market platform Kalshi to halt mention markets centered on President Donald Trump. The contracts in ques...</description>
+            </item>
             <item>
                 <title>The Pokémon TCG 30th Celebration Booster Bundle is back at Amazon: Buy now for close to market price</title>
                 <link>https://railfansday.github.io/semuaartikel65/artikel/the-pokmon-tcg-30th-celebration-booster-bundle-is-back-at-amazon--840.html</link>
@@ -83,12 +95,6 @@
                 <link>https://railfansday.github.io/semuaartikel65/artikel/tech-report-newly-introduced-species-of-giant-fungus-discovered-i-104.html</link>
                 <guid>https://railfansday.github.io/semuaartikel65/artikel/tech-report-newly-introduced-species-of-giant-fungus-discovered-i-104.html</guid>
                 <description>Sometimes fresh species evade detection because they’re tiny and thus easy to miss—not this giant fungus. Shaped like a hand reaching out of the ground, this new species of fungus was discovered deep in the forest in China’s Yunnan Province. A research team from the Kunming Insti...</description>
-            </item>
-            <item>
-                <title>China-linked hackers backdoored executives' laptops via USB, exploiting a fix companies had but weren't using</title>
-                <link>https://railfansday.github.io/semuaartikel65/artikel/china-linked-hackers-backdoored-executives-laptops-via-usb-exploi-17.html</link>
-                <guid>https://railfansday.github.io/semuaartikel65/artikel/china-linked-hackers-backdoored-executives-laptops-via-usb-exploi-17.html</guid>
-                <description>A Chinese state-linked hacking group compromised executive laptops at an agricultural industry conference on Hainan Island this spring — not through phishing or a network breach, but by breaking into hotel rooms and booting the machines from a USB stick while the executives were ...</description>
             </item>
 </channel>
 </rss>
