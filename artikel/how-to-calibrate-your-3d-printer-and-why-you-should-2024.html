@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to calibrate your 3D printer (and why you should)</title>
+    <meta name="description" content="Better first layers, fewer failed prints and a few calibration tests worth knowing about. Your 3D printer can spend hours making a part, only for it to det">
+    <link rel="canonical" href="https://railfansday.github.io/semuaartikel65/artikel/how-to-calibrate-your-3d-printer-and-why-you-should-2024.html">
+    <meta property="og:title" content="How to calibrate your 3D printer (and why you should)">
+    <meta property="og:description" content="Better first layers, fewer failed prints and a few calibration tests worth knowing about. Your 3D printer can spend hours making a part, only for it to det">
+    <meta property="og:image" content="https://www.engadget.com/img/gallery/how-to-calibrate-your-3d-printer-and-why-you-should/l-intro-1794242993.jpg">
+    <meta property="og:url" content="https://railfansday.github.io/semuaartikel65/artikel/how-to-calibrate-your-3d-printer-and-why-you-should-2024.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "How to calibrate your 3D printer (and why you should)", "image": ["https://www.engadget.com/img/gallery/how-to-calibrate-your-3d-printer-and-why-you-should/l-intro-1794242993.jpg"], "datePublished": "2026-11-21T23:45:00+00:00", "dateModified": "2026-11-22T03:41:22.668496", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/semuaartikel65/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/semuaartikel65/artikel/how-to-calibrate-your-3d-printer-and-why-you-should-2024.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>How to calibrate your 3D printer (and why you should)</h1>
+        <div class="meta-line">🌐 Source: <strong>Engadget</strong> &bull; 📅 21 Nov 2026 &bull; ⏱️ 4 min read (747 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Better first layers, fewer failed prints and a few calibration tests worth knowing about.</li><li style='margin-bottom:6px;'>Your 3D printer can spend hours making a part, only for it to detach from the bed halfway through.</li><li style='margin-bottom:6px;'>An uneven bed, incorrect nozzle height and poorly tuned extrusion can cause adhesion issues, rough surfaces and dimensional inaccuracies in an FDM 3D printer.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-2024"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-2024"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-2024"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="How to calibrate your 3D printer (and why you should)" loading="lazy" src="https://www.engadget.com/img/gallery/how-to-calibrate-your-3d-printer-and-why-you-should/l-intro-1794242993.jpg" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-2024">Better first layers, fewer failed prints and a few calibration tests worth knowing about.</p>
+<p>Your 3D printer can spend hours making a part, only for it to detach from the bed halfway through. Worse, the finished piece might look great but refuse to fit where it should. That's a lot of filament down the drain, all because the printer might need calibration.</p>
+<p>An uneven bed, incorrect nozzle height and poorly tuned extrusion can cause adhesion issues, rough surfaces and dimensional inaccuracies in an FDM 3D printer. Calibration can address those problems on both older printers that need manual adjustments and newer models that handle some checks automatically. It's also worth checking calibration after moving your printer, adjusting belts, replacing a nozzle or performing mechanical maintenance.</p>
+<p>The calibration process starts with a mechanical check, cleaning, bed leveling, Z-offset adjustments (when applicable) and a first-layer test. E-step calibration (rotation-distance calibration in Klipper) with a heated or printing-temperature hotend is a good indicator on supported printers to see if the extruder is extruding the right amount of filament before flow rate tuning. The temperature towers can then be used to fine-tune filament settings. There is no fixed schedule for recalibration, so repeat the appropriate checks as you change hardware or if print quality begins to deteriorate.</p>
+<p>Start with the hardware. Set the printer on a stable surface, and if that's in a bedroom or home office, check whether the space is suitable for 3D printing. With the machine powered off and cooled, inspect for loose belts or toolhead components, then clean the build plate according to the manufacturer's instructions. If your desk is wobbly, the Calibrate button won't fix anything.</p>
+<p>Then follow your printer's bed-leveling procedure, often labeled Calibration, Leveling or Self-check. Many newer machines from Bambu Lab, Creality, Prusa and Anycubic can measure the bed automatically, something worth considering if you're buying a 3D printer anytime soon. Some models, including the Bambu Lab A1 and Prusa MK4S, can also set the first-layer height automatically. The routines differ by model, so follow your printer's instructions.</p>
+<p>By contrast, certain machines, such as the Elegoo Neptune 4 and some Creality Ender models, have manual adjustment wheels, so they need a little more attention. Follow the manufacturer's leveling instructions, adjusting the wheels until a sheet of paper slides between the nozzle and bed with slight resistance at the specified points. Then run automatic leveling afterward if your printer supports it.</p>
+<p id="sec-mid-2024">It has been revealed that finally, print a single-layer square. The lines should touch and appear slightly flattened. Visible gaps can indicate that the nozzle is too high, while raised ridges or scraping suggest it's too close. If your printer allows manual Z-offset adjustments, make small changes and repeat the test.</p>
+<p>For E-step calibration, measure the filament, set a measured feed and compare the actual feed, making adjustments as necessary. Klipper has an equivalent setting called rotation distance, so before optimizing filament flow, it makes sense to check this.</p>
+<p>Recent findings suggest that it's not enough to get the first layer correct. Even filaments made from the same material can behave differently. One temperature or flow setting may be perfect for one spool but cause problems for another. Be sure to check the calibration options in your slicer.</p>
+<p>Bambu Studio includes Flow Dynamics and Flow Rate tests, while Creality Print and OrcaSlicer have their own calibration tools. PrusaSlicer also lets you adjust the extrusion multiplier. You don't need to switch slicers to run a test print.</p>
+<p>A temperature tower test prints sections at different nozzle temperatures, letting you compare stringing, bridging and surface quality. Some slicers generate these tests automatically, while others require a downloaded model with temperature changes configured manually. Make sure those temperature changes are configured. Otherwise, you've just printed a tower.</p>
+<p>Recent findings suggest that flow-rate calibration is done by testing patches for over-extrusion (extruding too much filament, resulting in buildup) or under-extrusion (extruding too little, resulting in gaps). You can also print a 3DBenchy to examine overhangs and details, or a calibration cube to check basic dimensional consistency. But don't start changing motor steps just because a cube measures slightly smaller than expected. Some annoying factors like material shrinkage, extrusion settings and first-layer squish can also affect those measurements, and so can loose belts or other mechanical problems.</p>
+<p id="sec-end-2024">Proper flow and pressure-advance tuning can also reduce blobs around layer starts and stops, although the vertical Z-seam's position is primarily controlled through your slicer's seam settings.</p>
+<p style="margin-top: 25px;">
+<a href="https://www.engadget.com/2310980/how-to-calibrate-3d-printer-why-should/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="10-things-you-should-never-do-on-your-android-phone-2019.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2019. 10 things you should never do on your Android phone
+        </a>
+        
+        <a href="the-free-raspberry-pi-tool-you-should-be-using-to-access-it-remot-1955.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1955. The free Raspberry Pi tool you should be using to access it remotely
+        </a>
+        
+        <a href="thank-the-gods-percy-jackson-remembered-it-should-be-funny-1918.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1918. Thank the gods, Percy Jackson remembered it should be funny
+        </a>
+        
+        <a href="industry-news-airpods-5-vs-airpods-pro-3-which-should-you-buy-thi-1766.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1766. Industry News: AirPods 5 vs AirPods Pro 3: Which should you buy this holiday season?
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>
