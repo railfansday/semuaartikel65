@@ -4,8 +4,14 @@
     <title>Portal Berita - EV & Auto</title>
     <link>https://railfansday.github.io/semuaartikel65/</link>
     <description>Curated news feed for EV & Auto.</description>
-    <lastBuildDate>Mon, 23 Nov 2026 16:39:04 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:32:11 -0000</lastBuildDate>
     
+            <item>
+                <title>Industry News: You cant use your $29,990 Tesla Cybercab without paying the $299 monthly fee</title>
+                <link>https://railfansday.github.io/semuaartikel65/artikel/industry-news-you-cant-use-your-29990-tesla-cybercab-without-payi-2440.html</link>
+                <guid>https://railfansday.github.io/semuaartikel65/artikel/industry-news-you-cant-use-your-29990-tesla-cybercab-without-payi-2440.html</guid>
+                <description>Tesla owners know all about subscription pricing when it comes to their vehicles. The company's Tesla Full Self-Driving (Supervised) feature requires a subscription of $99 per month. Of course, Tesla owners don't need FSD in order to drive their vehicles. They can drive the car t...</description>
+            </item>
             <item>
                 <title>Tesla’s FSD v15 turns driving visuals into Grand Theft Auto</title>
                 <link>https://railfansday.github.io/semuaartikel65/artikel/teslas-fsd-v15-turns-driving-visuals-into-grand-theft-auto-2217.html</link>
@@ -77,12 +83,6 @@
                 <link>https://railfansday.github.io/semuaartikel65/artikel/10-cheap-car-gadgets-to-buy-on-black-friday-shop-chargers-mounts--1392.html</link>
                 <guid>https://railfansday.github.io/semuaartikel65/artikel/10-cheap-car-gadgets-to-buy-on-black-friday-shop-chargers-mounts--1392.html</guid>
                 <description>Recent findings suggest that if you are planning a holiday road trip this year, you don't need to spend a fortune to make the drive a whole lot smoother. With many people expected to hit the road for Thanksgiving alone, having a few cheap car gadgets on hand can save you from tan...</description>
-            </item>
-            <item>
-                <title>Latest Update: Waymo has stopped its robotaxis from driving on the freeway—here’s why</title>
-                <link>https://railfansday.github.io/semuaartikel65/artikel/latest-update-waymo-has-stopped-its-robotaxis-from-driving-on-the-1272.html</link>
-                <guid>https://railfansday.github.io/semuaartikel65/artikel/latest-update-waymo-has-stopped-its-robotaxis-from-driving-on-the-1272.html</guid>
-                <description>Waymo is at the moment restricting its fleet of robotaxis to surface streets after getting into hot water with California over its cars’ driving behavior on highways. Specifically, the software tends to drive into construction zones at speed. As first reported by the San Francisc...</description>
             </item>
 </channel>
 </rss>
